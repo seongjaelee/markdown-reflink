@@ -9,10 +9,7 @@ An Atom package that helps reference-style links in Markdown documents.
 
 ## Why we need it?
 
-Long links in raw markdown documents distract the readers indeed. John Gruber himself also mentions about [the readability for the reference-style links][1]:
-
-> The point of reference-style links is not that they’re easier to write. The point is that with reference-style links, your document source is vastly more readable.
-
+Long links in raw markdown documents distract the readers indeed.
 For example, see how the long reference link in the paragraph harms its readability.
 
 ```
@@ -24,7 +21,9 @@ You can optionally use a space to separate the sets of brackets. Then, anywhere
 in the document, you define your link label like this, on a line by itself.
 ```
 
-Not surprisingly, Markdown syntax already has a solution for this - [reference-style links][1]. By just adding a short label after the linked text and adding the actual link at the end of the document, we can enhance the readability, while still keeping the link in the document.
+Not surprisingly, Markdown syntax already has a solution for this - [reference-style links][1]. Here is [John Gruber's quote][1] about it:
+
+> The point of reference-style links is not that they’re easier to write. The point is that with reference-style links, your document source is vastly more readable.
 
 ```
 [Reference-style links][1] use a second set of square brackets, inside which
